@@ -6,7 +6,8 @@ let fs = require("fs");
 
 http.createServer((req, res) => {
     // Leo archivo asíncronamente
-    let html2 = fs.readFile("./index.html", (err, html) => {
+    let html2 = fs.readFile("./index.json", (err, html) => {
+        res.writeHead("200", { "Content-type": "application/json" });
         res.write(html);
         res.end();
     });
