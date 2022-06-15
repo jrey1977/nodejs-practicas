@@ -1,0 +1,17 @@
+{
+  "name": "hola_express",
+  "version": "1.0.0",
+  "description": "Un pruebita con express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javier"
+  ],
+  "author": "Javier Rey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
